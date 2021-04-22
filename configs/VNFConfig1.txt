@@ -1,0 +1,10 @@
+##totalUserNumber=20
+banwidthUnitPrice=20
+delay=20
+##priceIncrease=true|false,increaseAmount
+priceIncrease=false,30
+betas=beta1:1, beta2:1
+revenue=0
+reputation=0
+initialPricePerUser=30
+assignedBandwidth=9000

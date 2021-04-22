@@ -1,0 +1,4 @@
+## totalUserGroup=group1:usernumber, group2:usernumber
+totalUserGroup = 2
+userGroupNumber=group1:10, group2:10  
+totalUserNumber= 20 

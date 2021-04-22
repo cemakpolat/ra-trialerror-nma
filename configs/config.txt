@@ -1,0 +1,22 @@
+
+# Content State experiment probability
+experimentProbability = exp(-beta) 
+beta = 1;
+# G(delta_u) parameters
+v1 = 0.1; v2 = 0.3;
+
+# Discontent State probability 
+acceptanceProbability = 0;
+
+## F(u) parameters
+phi_1= 0.001, phi_2 = 0.1
+
+
+### VNFs
+vnfbandwidth = 10000
+vnfNumber = 2
+
+userNumber = 2
+
+
+    

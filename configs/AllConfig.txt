@@ -1,0 +1,52 @@
+
+## Global Configuration 
+
+
+## Network Manager Configuration
+
+totalUserGroup=2 
+totalUserNumber=30
+banwidthUnitPrice=1
+totalBandwidth=100000
+##vnf=VNFID1,delay,bandwidth
+## comment...
+vnf=VNFID1,5,9000
+vnf=VNFID2,5,9000
+alphas=alpha1:1,alpha2:2,alpha3:3
+
+
+## VNF Configuration
+
+### VNF1
+
+##totalUserNumber=20
+banwidthUnitPrice=20
+delay=20
+##priceIncrease=true|false,increaseAmount
+priceIncrease=false,30
+betas=beta1:1, beta2:1
+revenue=0
+reputation=0
+initialPricePerUser=30
+assignedBandwidth=9000
+
+### VNF2
+
+##totalUserNumber=20
+##banwidthUnitPrice=20
+delay=20
+##priceIncrease=true,increaseAmount
+priceIncrease=false,30
+betas=beta1:1, beta2:1
+revenue=0
+reputation=0
+initialPricePerUser=30
+assignedBandwidth=9000
+
+## Service Configuration
+
+## totalUserGroup=group1:usernumber, group2:usernumber
+totalUserGroup = 2
+userGroupNumber=group1:10, group2:10  
+totalUserNumber= 20 
+
